@@ -9,3 +9,20 @@
 .high-usage {
   color: red;
 }
+
+body {
+	text-align: center;
+	width: 90vw;
+	height: 90vh;
+	padding: 10px;
+	margin: auto 0;
+	font-family: Helvetica;
+	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#current-temperature {
+	font-size: 2em;
+	color: #cd9cf2;
+}
