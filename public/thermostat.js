@@ -38,6 +38,10 @@ class Thermostat{
     this.temperature--;
   }
 
+  setTemperature(temp) {
+    this.temperature = temp;
+  }
+
   resetTemperature() {
     this.temperature = this.DEFAULT_TEMPERATURE;
   }
